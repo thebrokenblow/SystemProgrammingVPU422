@@ -1,0 +1,9 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Lesson1/Lesson1.csproj" />
+  <Project Path="MathLibrary/MathLibrary.vcxproj" />
+</Solution>
