@@ -5,5 +5,8 @@
     <Platform Name="x86" />
   </Configurations>
   <Project Path="Lesson1/Lesson1.csproj" />
-  <Project Path="MathLibrary/MathLibrary.vcxproj" />
+  <Project Path="Lesson2.ChildProcess/Lesson2.ChildProcess.csproj" Id="d7a3961d-f526-4aa4-8c7b-3369ca504416" />
+  <Project Path="Lesson2/Lesson2.csproj" Id="a1a86dc9-96ff-4543-a11d-2e3f62c5e4ef" />
+  <Project Path="Lesson3/Lesson3.csproj" Id="64758fde-6a02-464a-a7a3-6a01631277e9" />
+  <Project Path="MathLibrary/MathLibrary.vcxproj" Id="aa194a82-614b-49db-8b4d-0bcf7f9cde2e" />
 </Solution>
