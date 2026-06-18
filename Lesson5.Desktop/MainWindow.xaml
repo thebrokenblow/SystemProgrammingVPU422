@@ -10,11 +10,27 @@
     Height="450"
     mc:Ignorable="d">
     <Grid>
-        <StackPanel>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
             <StackPanel Height="30" Orientation="Horizontal">
-                <Label Content="Введите число" />
+                <Label Content="Результат: " />
+                <TextBlock Name="Result" Width="150" />
+            </StackPanel>
+
+            <StackPanel Height="30" Orientation="Horizontal">
+                <Label Content="Введите число: " />
                 <TextBox Name="Number" Width="150" />
             </StackPanel>
+
+            <Button
+                Name="SumButton"
+                Click="SumButton_Click"
+                Content="Посчитать" />
+
+            <Button
+                Name="CancellationSumButton"
+                Click="CancellationSumButton_Click"
+                Content="Отменить"
+                IsEnabled="False" />
         </StackPanel>
     </Grid>
 </Window>
