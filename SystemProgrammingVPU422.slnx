@@ -8,5 +8,7 @@
   <Project Path="Lesson2.ChildProcess/Lesson2.ChildProcess.csproj" Id="d7a3961d-f526-4aa4-8c7b-3369ca504416" />
   <Project Path="Lesson2/Lesson2.csproj" Id="a1a86dc9-96ff-4543-a11d-2e3f62c5e4ef" />
   <Project Path="Lesson3/Lesson3.csproj" Id="64758fde-6a02-464a-a7a3-6a01631277e9" />
+  <Project Path="Lesson4/Lesson4.csproj" Id="e2b30a0c-f7fb-4080-a91b-10d5639d3cf7" />
+  <Project Path="Lesson5.Desktop/Lesson5.Desktop.csproj" Id="bca52aa1-5dc7-4980-ac5f-dc4e489397f5" />
   <Project Path="MathLibrary/MathLibrary.vcxproj" Id="aa194a82-614b-49db-8b4d-0bcf7f9cde2e" />
 </Solution>
