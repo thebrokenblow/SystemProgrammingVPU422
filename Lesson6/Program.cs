@@ -1,4 +1,4 @@
-﻿var mutex = new Mutex();
+﻿object locker = new();
 
 int x = 0;
 
@@ -24,7 +24,8 @@ Console.WriteLine(x);
 
 void Print(int numberThread)
 {
-    mutex.WaitOne();
+    bool flagLock = false;
+    Monitor.Enter(locker, ref flagLock);
 
     x = 0;
     for (int i = 0; i < 6; i++)
@@ -34,5 +35,5 @@ void Print(int numberThread)
         Thread.Sleep(100);
     }
 
-    mutex.ReleaseMutex();
+    Monitor.Exit(locker);
 }
