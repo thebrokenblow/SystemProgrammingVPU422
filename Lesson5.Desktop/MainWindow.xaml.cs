@@ -47,6 +47,33 @@ public partial class MainWindow : Window
         {
             Application.Current.Dispatcher.Invoke(ChangeStatusControlElements);
         }
+
+        SomeAction(new SomeClass1());
+        SomeAction(new SomeClass2());
+    }
+
+    private void SomeAction(AbstractSomeClass abstractSomeClass)
+    {
+        abstractSomeClass.Foo();
+    }
+
+    abstract class AbstractSomeClass
+    {
+        public abstract void Foo();
+    }
+
+    class SomeClass1 : AbstractSomeClass
+    {
+        public override void Foo()
+        {
+        }
+    }
+
+    class SomeClass2 : AbstractSomeClass
+    {
+        public override void Foo()
+        {
+        }
     }
 
     private void ChangeStatusControlElements()

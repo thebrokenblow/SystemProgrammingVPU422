@@ -4,6 +4,7 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
+  <Project Path="ClassLibrary1/ClassLibrary1.csproj" Id="513a5b56-e453-4069-b899-9de1dcd1f281" />
   <Project Path="Lesson1/Lesson1.csproj" />
   <Project Path="Lesson2.ChildProcess/Lesson2.ChildProcess.csproj" Id="d7a3961d-f526-4aa4-8c7b-3369ca504416" />
   <Project Path="Lesson2/Lesson2.csproj" Id="a1a86dc9-96ff-4543-a11d-2e3f62c5e4ef" />
