@@ -4,6 +4,7 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
+  <Project Path="C:/Users/artem/Downloads/wpf-ui-workshops-master/wpf-ui-workshops-master/LoadingSpinnerControl/LoadingSpinnerControl.csproj" />
   <Project Path="ClassLibrary1/ClassLibrary1.csproj" Id="513a5b56-e453-4069-b899-9de1dcd1f281" />
   <Project Path="Lesson1/Lesson1.csproj" />
   <Project Path="Lesson2.ChildProcess/Lesson2.ChildProcess.csproj" Id="d7a3961d-f526-4aa4-8c7b-3369ca504416" />
@@ -12,5 +13,6 @@
   <Project Path="Lesson4/Lesson4.csproj" Id="e2b30a0c-f7fb-4080-a91b-10d5639d3cf7" />
   <Project Path="Lesson5.Desktop/Lesson5.Desktop.csproj" Id="bca52aa1-5dc7-4980-ac5f-dc4e489397f5" />
   <Project Path="Lesson6/Lesson6.csproj" Id="75305d5a-52af-45af-9a32-d79c8de95e28" />
+  <Project Path="Lesson7/Lesson7.csproj" Id="ac750454-d7d0-448b-bfbc-8c4504c44823" />
   <Project Path="MathLibrary/MathLibrary.vcxproj" Id="aa194a82-614b-49db-8b4d-0bcf7f9cde2e" />
 </Solution>
